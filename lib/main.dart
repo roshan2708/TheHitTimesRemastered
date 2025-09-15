@@ -23,13 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: AppColors.primaryBlack,
       ),
-      home: const MatchDetailScreen(), // Start with login, or change to other screens
-      // Add routes if needed, e.g.:
-      // routes: {
-      //   '/signup': (context) => SignupScreen(),
-      //   '/home': (context) => HomeScreen(),
-      //   // etc.
-      // },
+      home: const MatchDetailScreen(), 
     );
   }
 }
